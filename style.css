@@ -43,9 +43,9 @@ body {
 
 /* ภารกิจที่ 5: จัดสไตล์ชื่อ #profile-name */
 #profile-name {
-  color: #ffffff;
+  color: #ff2e89;
   text-align: center;
-  font-size: 1.0rem;
+  font-size: 1.1rem;
   margin: 0 0 8px;
 }
 
