@@ -1,54 +1,57 @@
+/* ภารกิจที่ 2: จัดสไตล์ <body> */
 body {
-  background-color: papayawhip;
-  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #fff0f6 0%, #f3f0ff 50%, #e6fcf5 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
   margin: 0;
   padding: 40px 16px;
-  color: #333333;
+  color: #5c4b51;
   line-height: 1.6;
+  box-sizing: border-box;
 }
 
 /* ภารกิจที่ 3: จัดสไตล์ .card */
 .card {
-  width: 300px;
+  width: 310px;
   max-width: 100%;
   box-sizing: border-box;
   background-color: #ffffff;
-  border: 1px solid #ececec;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border: 2px solid #ffc9de;
+  box-shadow: 0 12px 28px rgba(255, 143, 184, 0.22);
   margin: 0 auto;
   padding: 28px 24px;
-  border-radius: 16px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 26px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+  transform: translateY(-5px) scale(1.01);
+  box-shadow: 0 16px 34px rgba(255, 143, 184, 0.32);
 }
 
 /* ภารกิจที่ 4: จัดสไตล์รูปภาพ <img> */
 .card img {
-  width: 96px;
-  height: 96px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
   margin: 0 auto 16px;
-  border: 3px solid papayawhip;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border: 4px solid #ffdeeb;
+  box-shadow: 0 6px 14px rgba(255, 143, 184, 0.25);
 }
 
 /* ภารกิจที่ 5: จัดสไตล์ชื่อ #profile-name */
 #profile-name {
-  color: #222222;
+  color: #d6336c;
   text-align: center;
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   margin: 0 0 8px;
 }
 
 /* ภารกิจที่ 6: จัดสไตล์ .bio */
 .bio {
-  color: #666666;
+  color: #866e77;
   font-size: 14px;
   text-align: center;
   margin: 0 0 20px;
@@ -59,12 +62,20 @@ ul {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
-  border-top: 1px solid #f0f0f0;
-  padding-top: 12px;
+  border-top: 2px dashed #ffdeeb;
+  padding-top: 14px;
+  text-align: right;
 }
 
 ul li {
   font-size: 13.5px;
-  color: #444444;
-  padding: 6px 0;
+  color: #6d5961;
+  background-color: #fff5f8;
+  padding: 7px 12px;
+  margin-bottom: 8px;
+  border-radius: 14px;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
 }
